@@ -2,6 +2,18 @@ import { Container, Row, Col, Button } from "reactstrap";
 import { Card } from "react-bootstrap";
 import { LuListMinus } from "react-icons/lu";
 import { Link } from "react-router-dom";
+import web1 from "../../public/1.png";
+import web1a from "../../public/2a.png";
+import web2 from "../../public/2.png";
+import web2a from "../../public/1a.png";
+import web3 from "../../public/3.png";
+import web3a from "../../public/3a.png";
+import des1 from "../../public/Screenshot from 2025-09-03 13-53-37.png";
+import des2 from "../../public/Screenshot from 2025-09-03 13-53-40.png";
+import des3 from "../../public/Screenshot from 2025-09-03 13-53-48.png";
+import des4 from "../../public/Screenshot from 2025-09-03 13-53-53.png";
+import des5 from "../../public/Screenshot from 2025-09-03 13-54-14.png";
+import des6 from "../../public/Screenshot from 2025-09-03 13-54-22.png";
 
 function PortfolioSection() {
   return (
@@ -11,12 +23,12 @@ function PortfolioSection() {
       <Row>
         <Col md={4}>
           <Card className="card-dark ">
-            <Card.Img src="../../public/2.png" />
+            <Card.Img src={web2a} />
           </Card>
         </Col>
         <Col md={4}>
           <Card className="card-dark ">
-            <Card.Img src="../../public/1a.png" />
+            <Card.Img src={web2} />
           </Card>
         </Col>
         <Col md={4}>
@@ -47,24 +59,24 @@ function PortfolioSection() {
         </Col>
         <Col md={4}>
           <Card className="card-dark ">
-            <Card.Img src="../../public/1.png" />
+            <Card.Img src={web1} />
           </Card>
         </Col>
         <Col md={4}>
           <Card className="card-dark ">
-            <Card.Img src="../../public/2a.png" />
+            <Card.Img src={web1a} />
           </Card>
         </Col>
       </Row>
       <Row className="mt-5 pt-5">
         <Col md={4}>
           <Card className="card-dark ">
-            <Card.Img src="../../public/3.png" />
+            <Card.Img src={web3} />
           </Card>
         </Col>
         <Col md={4}>
           <Card className="card-dark ">
-            <Card.Img src="../../public/3a.png" />
+            <Card.Img src={web3a} />
           </Card>
         </Col>
         <Col md={4}>
@@ -85,32 +97,32 @@ function PortfolioSection() {
       <Row>
         <Col md="2">
           <Card>
-            <img src="../../public/Screenshot from 2025-09-03 13-53-37.png" />
+            <img src={des1} />
           </Card>
         </Col>
         <Col md="2">
           <Card>
-            <img src="../../public/Screenshot from 2025-09-03 13-53-40.png" />
+            <img src={des2} />
           </Card>
         </Col>
         <Col md="2">
           <Card>
-            <img src="../../public/Screenshot from 2025-09-03 13-53-48.png" />
+            <img src={des3} />
           </Card>
         </Col>
         <Col md="2">
           <Card>
-            <img src="../../public/Screenshot from 2025-09-03 13-53-53.png" />
+            <img src={des4} />
           </Card>
         </Col>
         <Col md="2">
           <Card>
-            <img src="../../public/Screenshot from 2025-09-03 13-54-14.png" />
+            <img src={des5} />
           </Card>
         </Col>
         <Col md="2">
           <Card>
-            <img src="../../public/Screenshot from 2025-09-03 13-54-22.png" />
+            <img src={des6} />
           </Card>
         </Col>
       </Row>
